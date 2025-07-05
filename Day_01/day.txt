@@ -1,0 +1,11 @@
+Home Work
+ Q1: What is CDN
+ Q2: What is crossorigin
+
+JavaScript CDN:
+ "<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> // this is the core file of react code"
+ "<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> // this link is use to change the dom codein our project"
+
+ "Using {} object you can pass the attribute in our JavaScript code"
+
+ JSX
