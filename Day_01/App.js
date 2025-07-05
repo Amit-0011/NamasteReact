@@ -1,4 +1,21 @@
+// First React Code Inside JavaScript File
+// const heading = React.createElement(
+//   "h1",
+//   { id: "heading", xyz: "abc" },
+//   "Hello World from React!"
+// ); // object
+
+const { Children } = require("react");
+
+// console.log(heading); // this is return a object
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(heading);
+
+
 {
+  // create this in React
   /* <div id="parent">
     <div id="child">
         <h1>I'm an h1 tag</h1>
@@ -13,6 +30,7 @@ ReactElement(Object) => HTML (Browser Understands)
 */
 }
 
+// here are the created element
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "I'm an h1 tag"),
@@ -30,15 +48,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent);
 
-// First React Code Inside JavaScript File
-// const heading = React.createElement(
-//   "h1",
-//   { id: "heading", xyz: "abc" },
-//   "Hello World from React!"
-// ); // object
+// const header = ReactDOM.createRoot(document.getElementById("header"));
 
-// console.log(heading); // this is return a object
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-
-// root.render(heading);
+// const parent = React.createElement("tag name", { id: "attribute" }, Children)
